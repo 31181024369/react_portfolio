@@ -229,6 +229,11 @@ svg {
     fill: currentcolor;
     width: 15px;
     height: 15px;
+}.icon {
+    svg {
+        width: unset;
+        height: unset;
+    }
 }
 
 img.svg {
@@ -447,6 +452,9 @@ img.svg {
                         &:before {
                             width: 35px;
                         }
+                    }
+                    &:active {
+                        color: $color_3;
                     }
                 }
             }
@@ -1185,7 +1193,7 @@ img.svg {
     box-sizing: border-box;
     background-color: $background-color_5;
     padding: 90px 0px;
-    margin-bottom: 100px;
+    // margin-bottom: 100px;
 
     .inner_wrap {
         width: 100%;
